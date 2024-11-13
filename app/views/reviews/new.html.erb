@@ -1,0 +1,9 @@
+<%= simple_form_for(@restaurant, @review) do |f| %>
+  <%= f.input :review %>
+  <%= f.text_field :content %>
+  <%= f.input :rating %>
+  <%= f.text_field :ratings%>
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
